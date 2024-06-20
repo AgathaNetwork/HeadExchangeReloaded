@@ -1,0 +1,7 @@
+name: HeadExchange
+main: com.mws.HeadExchange.HeadExchange
+version: 1.0
+commands:
+ he:
+  description: HeadExchange
+  usage:/he:
