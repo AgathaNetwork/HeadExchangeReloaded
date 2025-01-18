@@ -35,7 +35,7 @@ public final class HeadExchange extends JavaPlugin {
 
     	    if(isValidHead(itemInHead)) {
     		    senp.getInventory().clear(senp.getInventory().getHeldItemSlot());
-                String command = "give " + senp.getName() + " minecraft:player_head[minecraft:profile=" + args[0] + "] 1";
+                String command = "minecraft:give " + senp.getName() + " minecraft:player_head[minecraft:profile=" + args[0] + "] 1";
                 Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), command);
     	    }
             return true;
