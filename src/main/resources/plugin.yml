@@ -1,6 +1,7 @@
 name: HeadExchange
 main: com.mws.HeadExchange.HeadExchange
 version: 1.0
+api-version: "1.21"
 commands:
  he:
   description: HeadExchange
